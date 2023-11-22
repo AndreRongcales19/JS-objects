@@ -29,6 +29,11 @@ let food = {
     gezond: "good for your muscle growth",
 }
 
+const foodJSON = JSON.stringify(food);
+container.innerHTML += `<p>${food.title}</p>`;
+container.innerHTML += `<p>${food.description}</p>`;
+container.innerHTML += `<p>${food.gezond}</p>`;
+container.innerHTML += foodJSON;
 
 // opdr 4 
 
@@ -39,6 +44,8 @@ let MercedesCLA = {
     description: "Mercedes CLA-Klasse 180 1.6 90KW Blue Eff. Edit. 2017",
     price: 24000, 
 }
+
+
 
 //opdr 5 
 
