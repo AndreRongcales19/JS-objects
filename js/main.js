@@ -1,4 +1,5 @@
 console.log("main.js werkt");
+const container = document.querySelector(".container");
 
 //opdr 1 
 let person = {
@@ -8,6 +9,8 @@ let person = {
     course: "ICT", 
     score: 7.5,
 }
+container.innerHTML += person.firstName;
+container.innerHTML += person.age;
 
 //opdr 2 
 let personOnFb = {
@@ -18,12 +21,14 @@ let personOnFb = {
     views: 6200, 
 }
 
+
 //opdr 3
 let food = {
     title: "adobo",
     description: "chicken soup with soy sauce",
     gezond: "good for your muscle growth",
 }
+
 
 // opdr 4 
 
